@@ -107,23 +107,7 @@ public class ConversionSW {
         bdTablaItemFacturas.add(item1);
         bdTablaItemFacturas.add(item2);
 
-//        //Creamos un item
-//        Item_Factura item1 = new Item_Factura(1, fac1, produc1, 3, 5.23, 33.00);
-//        Item_Factura item2 = new Item_Factura(2, fac2, produc2, 3, 6.23, 66.00);
-//
-//
-////  SEERVICO PARA RELACION DE FACTURAS 
-//        item1.agregarfactura(fac1);
-//        bdTablaItemFacturas.add(item1);
-//        item2.agregarfactura(fac2);
-//        bdTablaItemFacturas.add(item2);
-//        
-//        
-//        //******************
-//        fac1.agregarItem(item2);
-//        fac2.agregarItem(item2);
-//        bdTablafacturas.add(fac1);
-//        bdTablafacturas.add(fac2);
+
     }
 
     @WebMethod(operationName = "validarFacturas")
